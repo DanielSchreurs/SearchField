@@ -12,6 +12,14 @@ This Safari extension allows you to search for information on sites with a searc
 
 
 
+## Safari Installation:
+
+1. [Download Extension]()
+
+## Chrome Installation:
+
+1. [Download Safari](http://apple.com/)
+
 ## Selector
 
 The extension is simple but requires good HTML semantics. The selector that currently allows this is summarised as follows:   
