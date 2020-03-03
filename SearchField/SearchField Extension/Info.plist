@@ -44,7 +44,7 @@
 			<key>Image</key>
 			<string>ToolbarItemIcon.pdf</string>
 			<key>Label</key>
-			<string>Search Field</string>
+			<string>ctrl+maj+L</string>
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -59,6 +59,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020 Daniel Schreurs. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>This is a Safari Extension. You should tell us what your extension does here.</string>
+	<string>A simple and efficient way to put the focus in the search field. All this is done by pressing the keys ctrl+shift+L.</string>
 </dict>
 </plist>

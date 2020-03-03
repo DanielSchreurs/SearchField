@@ -1,14 +1,14 @@
 # Search Field
 
-> A simple and efficient way to put the focus in the search field. All this is done by pressing the keys `ctr+shift+L`.
+> A simple and efficient way to put the focus in the search field. All this is done by pressing the keys `ctrl + shift + L`.
 
 This Safari extension allows you to search for information on sites with a search field using a keyboard shortcut.
 
 
 
-## How to use it : CTR + MAJ + L
+## How to use it : ctrl + shift + L
 
-![](./readme.gif)
+![](./resources/Amazon.gif)
 
 
 
