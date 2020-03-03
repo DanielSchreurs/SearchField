@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0064C6240EAB3E001700A1 /* SearchField.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = FB0064C5240EAB3E001700A1 /* SearchField.entitlements */; };
+		FB0064C8240EAB3E001700A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0064C7240EAB3E001700A1 /* AppDelegate.swift */; };
+		FB0064CB240EAB3E001700A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0064C9240EAB3E001700A1 /* Main.storyboard */; };
+		FB0064CD240EAB3E001700A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0064CC240EAB3E001700A1 /* ViewController.swift */; };
+		FB0064CF240EAB41001700A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0064CE240EAB41001700A1 /* Assets.xcassets */; };
+		FB0064DA240EAB41001700A1 /* SearchFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0064D9240EAB41001700A1 /* SearchFieldTests.swift */; };
+		FB0064E5240EAB42001700A1 /* SearchFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0064E4240EAB42001700A1 /* SearchFieldUITests.swift */; };
+		FB0064EC240EAB42001700A1 /* SearchField Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB0064EB240EAB42001700A1 /* SearchField Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB0064F1240EAB42001700A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0064F0240EAB42001700A1 /* Cocoa.framework */; };
+		FB0064F4240EAB42001700A1 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0064F3240EAB42001700A1 /* SafariExtensionHandler.swift */; };
+		FB0064F6240EAB42001700A1 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0064F5240EAB42001700A1 /* SafariExtensionViewController.swift */; };
+		FB0064F9240EAB42001700A1 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB0064F7240EAB42001700A1 /* SafariExtensionViewController.xib */; };
+		FB0064FC240EAB42001700A1 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = FB0064FB240EAB42001700A1 /* script.js */; };
+		FB0064FE240EAB42001700A1 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FB0064FD240EAB42001700A1 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0064D6240EAB41001700A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0064BA240EAB3E001700A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0064C1240EAB3E001700A1;
+			remoteInfo = SearchField;
+		};
+		FB0064E1240EAB42001700A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0064BA240EAB3E001700A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0064C1240EAB3E001700A1;
+			remoteInfo = SearchField;
+		};
+		FB0064ED240EAB42001700A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0064BA240EAB3E001700A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0064EA240EAB42001700A1;
+			remoteInfo = "SearchField Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB006505240EAB42001700A1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB0064EC240EAB42001700A1 /* SearchField Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB0064C2240EAB3E001700A1 /* SearchField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0064C5240EAB3E001700A1 /* SearchField.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SearchField.entitlements; sourceTree = "<group>"; };
+		FB0064C7240EAB3E001700A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0064CA240EAB3E001700A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0064CC240EAB3E001700A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0064CE240EAB41001700A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0064D0240EAB41001700A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0064D5240EAB41001700A1 /* SearchFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0064D9240EAB41001700A1 /* SearchFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldTests.swift; sourceTree = "<group>"; };
+		FB0064DB240EAB41001700A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0064E0240EAB42001700A1 /* SearchFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0064E4240EAB42001700A1 /* SearchFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldUITests.swift; sourceTree = "<group>"; };
+		FB0064E6240EAB42001700A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0064EB240EAB42001700A1 /* SearchField Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SearchField Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0064F0240EAB42001700A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FB0064F3240EAB42001700A1 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		FB0064F5240EAB42001700A1 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		FB0064F8240EAB42001700A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		FB0064FA240EAB42001700A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0064FB240EAB42001700A1 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		FB0064FD240EAB42001700A1 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		FB0064FF240EAB42001700A1 /* SearchField_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SearchField_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0064BF240EAB3E001700A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064D2240EAB41001700A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064DD240EAB42001700A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064E8240EAB42001700A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0064F1240EAB42001700A1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0064B9240EAB3E001700A1 = {
+			isa = PBXGroup;
+			children = (
+				FB0064C4240EAB3E001700A1 /* SearchField */,
+				FB0064D8240EAB41001700A1 /* SearchFieldTests */,
+				FB0064E3240EAB42001700A1 /* SearchFieldUITests */,
+				FB0064F2240EAB42001700A1 /* SearchField Extension */,
+				FB0064EF240EAB42001700A1 /* Frameworks */,
+				FB0064C3240EAB3E001700A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0064C3240EAB3E001700A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0064C2240EAB3E001700A1 /* SearchField.app */,
+				FB0064D5240EAB41001700A1 /* SearchFieldTests.xctest */,
+				FB0064E0240EAB42001700A1 /* SearchFieldUITests.xctest */,
+				FB0064EB240EAB42001700A1 /* SearchField Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0064C4240EAB3E001700A1 /* SearchField */ = {
+			isa = PBXGroup;
+			children = (
+				FB0064C5240EAB3E001700A1 /* SearchField.entitlements */,
+				FB0064C7240EAB3E001700A1 /* AppDelegate.swift */,
+				FB0064C9240EAB3E001700A1 /* Main.storyboard */,
+				FB0064CC240EAB3E001700A1 /* ViewController.swift */,
+				FB0064CE240EAB41001700A1 /* Assets.xcassets */,
+				FB0064D0240EAB41001700A1 /* Info.plist */,
+			);
+			path = SearchField;
+			sourceTree = "<group>";
+		};
+		FB0064D8240EAB41001700A1 /* SearchFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0064D9240EAB41001700A1 /* SearchFieldTests.swift */,
+				FB0064DB240EAB41001700A1 /* Info.plist */,
+			);
+			path = SearchFieldTests;
+			sourceTree = "<group>";
+		};
+		FB0064E3240EAB42001700A1 /* SearchFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0064E4240EAB42001700A1 /* SearchFieldUITests.swift */,
+				FB0064E6240EAB42001700A1 /* Info.plist */,
+			);
+			path = SearchFieldUITests;
+			sourceTree = "<group>";
+		};
+		FB0064EF240EAB42001700A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB0064F0240EAB42001700A1 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0064F2240EAB42001700A1 /* SearchField Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB0064F3240EAB42001700A1 /* SafariExtensionHandler.swift */,
+				FB0064F5240EAB42001700A1 /* SafariExtensionViewController.swift */,
+				FB0064F7240EAB42001700A1 /* SafariExtensionViewController.xib */,
+				FB0064FA240EAB42001700A1 /* Info.plist */,
+				FB0064FB240EAB42001700A1 /* script.js */,
+				FB0064FD240EAB42001700A1 /* ToolbarItemIcon.pdf */,
+				FB0064FF240EAB42001700A1 /* SearchField_Extension.entitlements */,
+			);
+			path = "SearchField Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0064C1240EAB3E001700A1 /* SearchField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB006506240EAB42001700A1 /* Build configuration list for PBXNativeTarget "SearchField" */;
+			buildPhases = (
+				FB0064BE240EAB3E001700A1 /* Sources */,
+				FB0064BF240EAB3E001700A1 /* Frameworks */,
+				FB0064C0240EAB3E001700A1 /* Resources */,
+				FB006505240EAB42001700A1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0064EE240EAB42001700A1 /* PBXTargetDependency */,
+			);
+			name = SearchField;
+			productName = SearchField;
+			productReference = FB0064C2240EAB3E001700A1 /* SearchField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0064D4240EAB41001700A1 /* SearchFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB006509240EAB42001700A1 /* Build configuration list for PBXNativeTarget "SearchFieldTests" */;
+			buildPhases = (
+				FB0064D1240EAB41001700A1 /* Sources */,
+				FB0064D2240EAB41001700A1 /* Frameworks */,
+				FB0064D3240EAB41001700A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0064D7240EAB41001700A1 /* PBXTargetDependency */,
+			);
+			name = SearchFieldTests;
+			productName = SearchFieldTests;
+			productReference = FB0064D5240EAB41001700A1 /* SearchFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0064DF240EAB42001700A1 /* SearchFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB00650C240EAB42001700A1 /* Build configuration list for PBXNativeTarget "SearchFieldUITests" */;
+			buildPhases = (
+				FB0064DC240EAB42001700A1 /* Sources */,
+				FB0064DD240EAB42001700A1 /* Frameworks */,
+				FB0064DE240EAB42001700A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0064E2240EAB42001700A1 /* PBXTargetDependency */,
+			);
+			name = SearchFieldUITests;
+			productName = SearchFieldUITests;
+			productReference = FB0064E0240EAB42001700A1 /* SearchFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FB0064EA240EAB42001700A1 /* SearchField Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB006502240EAB42001700A1 /* Build configuration list for PBXNativeTarget "SearchField Extension" */;
+			buildPhases = (
+				FB0064E7240EAB42001700A1 /* Sources */,
+				FB0064E8240EAB42001700A1 /* Frameworks */,
+				FB0064E9240EAB42001700A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SearchField Extension";
+			productName = "SearchField Extension";
+			productReference = FB0064EB240EAB42001700A1 /* SearchField Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0064BA240EAB3E001700A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Daniel Schreurs";
+				TargetAttributes = {
+					FB0064C1240EAB3E001700A1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FB0064D4240EAB41001700A1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FB0064C1240EAB3E001700A1;
+					};
+					FB0064DF240EAB42001700A1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FB0064C1240EAB3E001700A1;
+					};
+					FB0064EA240EAB42001700A1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FB0064BD240EAB3E001700A1 /* Build configuration list for PBXProject "SearchField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0064B9240EAB3E001700A1;
+			productRefGroup = FB0064C3240EAB3E001700A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0064C1240EAB3E001700A1 /* SearchField */,
+				FB0064D4240EAB41001700A1 /* SearchFieldTests */,
+				FB0064DF240EAB42001700A1 /* SearchFieldUITests */,
+				FB0064EA240EAB42001700A1 /* SearchField Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0064C0240EAB3E001700A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0064C6240EAB3E001700A1 /* SearchField.entitlements in Resources */,
+				FB0064CF240EAB41001700A1 /* Assets.xcassets in Resources */,
+				FB0064CB240EAB3E001700A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064D3240EAB41001700A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064DE240EAB42001700A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064E9240EAB42001700A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0064FE240EAB42001700A1 /* ToolbarItemIcon.pdf in Resources */,
+				FB0064F9240EAB42001700A1 /* SafariExtensionViewController.xib in Resources */,
+				FB0064FC240EAB42001700A1 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0064BE240EAB3E001700A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0064CD240EAB3E001700A1 /* ViewController.swift in Sources */,
+				FB0064C8240EAB3E001700A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064D1240EAB41001700A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0064DA240EAB41001700A1 /* SearchFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064DC240EAB42001700A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0064E5240EAB42001700A1 /* SearchFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0064E7240EAB42001700A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0064F6240EAB42001700A1 /* SafariExtensionViewController.swift in Sources */,
+				FB0064F4240EAB42001700A1 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0064D7240EAB41001700A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0064C1240EAB3E001700A1 /* SearchField */;
+			targetProxy = FB0064D6240EAB41001700A1 /* PBXContainerItemProxy */;
+		};
+		FB0064E2240EAB42001700A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0064C1240EAB3E001700A1 /* SearchField */;
+			targetProxy = FB0064E1240EAB42001700A1 /* PBXContainerItemProxy */;
+		};
+		FB0064EE240EAB42001700A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0064EA240EAB42001700A1 /* SearchField Extension */;
+			targetProxy = FB0064ED240EAB42001700A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0064C9240EAB3E001700A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0064CA240EAB3E001700A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0064F7240EAB42001700A1 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0064F8240EAB42001700A1 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB006500240EAB42001700A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB006501240EAB42001700A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FB006503240EAB42001700A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SearchField Extension/SearchField_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL34MPJQ92;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "SearchField Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danielschreurs.SearchField-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB006504240EAB42001700A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SearchField Extension/SearchField_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL34MPJQ92;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "SearchField Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danielschreurs.SearchField-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FB006507240EAB42001700A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SearchField/SearchField.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL34MPJQ92;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SearchField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielschreurs.SearchField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB006508240EAB42001700A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SearchField/SearchField.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL34MPJQ92;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SearchField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielschreurs.SearchField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FB00650A240EAB42001700A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL34MPJQ92;
+				INFOPLIST_FILE = SearchFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = danielschreurs.SearchFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchField.app/Contents/MacOS/SearchField";
+			};
+			name = Debug;
+		};
+		FB00650B240EAB42001700A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL34MPJQ92;
+				INFOPLIST_FILE = SearchFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = danielschreurs.SearchFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchField.app/Contents/MacOS/SearchField";
+			};
+			name = Release;
+		};
+		FB00650D240EAB42001700A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL34MPJQ92;
+				INFOPLIST_FILE = SearchFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielschreurs.SearchFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SearchField;
+			};
+			name = Debug;
+		};
+		FB00650E240EAB42001700A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NL34MPJQ92;
+				INFOPLIST_FILE = SearchFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielschreurs.SearchFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SearchField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0064BD240EAB3E001700A1 /* Build configuration list for PBXProject "SearchField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB006500240EAB42001700A1 /* Debug */,
+				FB006501240EAB42001700A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB006502240EAB42001700A1 /* Build configuration list for PBXNativeTarget "SearchField Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB006503240EAB42001700A1 /* Debug */,
+				FB006504240EAB42001700A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB006506240EAB42001700A1 /* Build configuration list for PBXNativeTarget "SearchField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB006507240EAB42001700A1 /* Debug */,
+				FB006508240EAB42001700A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB006509240EAB42001700A1 /* Build configuration list for PBXNativeTarget "SearchFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB00650A240EAB42001700A1 /* Debug */,
+				FB00650B240EAB42001700A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB00650C240EAB42001700A1 /* Build configuration list for PBXNativeTarget "SearchFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB00650D240EAB42001700A1 /* Debug */,
+				FB00650E240EAB42001700A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0064BA240EAB3E001700A1 /* Project object */;
+}
